@@ -1,0 +1,44 @@
+
+[game]
+name = "Suikoden"
+id = "SLUS-00292"
+players = 1
+exe = "disc/SLUS_002.92"
+disc = "disc/Suikoden (USA) (Rev 1).cue"
+load_address = "0x80010000"
+entry_pc = "0x800241C4"
+text_size = "0x00090800"
+stack_base = "0x801FFFF0"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Suikoden (USA) (Rev 1).bin"
+cue_name = "Suikoden (USA) (Rev 1).cue"
+boot_exe = "SLUS_002.92"
+known_sizes = [590119152]
+known_md5 = ["0a5aaa5aaa7649b1cb48a900f1649c8c"]
+known_sha1 = ["409453aaedfb6bb7d5bb8a228cce5f04b7c35ee0"]
+known_crc32 = ["e0df06e0"]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Suikoden Recompiled"
+memcard_dir = "saves"
+openbios = false
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "84644a91d8efe965706b7fac93407c553181ae888f17f9249536271063861c4d"

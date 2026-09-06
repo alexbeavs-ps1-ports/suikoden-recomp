@@ -1,0 +1,24 @@
+{
+  "schema": "psx.redump-disc-set.v1",
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Suikoden (USA) (Rev 1).cue",
+      "bin_name": "Suikoden (USA) (Rev 1).bin",
+      "size": 590119152,
+      "md5": "0a5aaa5aaa7649b1cb48a900f1649c8c",
+      "sha1": "409453aaedfb6bb7d5bb8a228cce5f04b7c35ee0",
+      "crc32": "e0df06e0",
+      "track_count": 1,
+      "tracks": [
+        {
+          "name": "Suikoden (USA) (Rev 1).bin",
+          "size": "590119152",
+          "crc": "e0df06e0",
+          "md5": "0a5aaa5aaa7649b1cb48a900f1649c8c",
+          "sha1": "409453aaedfb6bb7d5bb8a228cce5f04b7c35ee0"
+        }
+      ]
+    }
+  ]
+}
